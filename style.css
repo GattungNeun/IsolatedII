@@ -99,3 +99,16 @@ button:focus{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+
+@media only screen and (max-width: 600px){
+    .left-slide h1{
+        font-size: 28px;
+    }
+    .left-slide p{
+        font-size: 12px;
+    }
+
+    .slider-container .action-buttons button{
+        top: 70%;
+    }
+}
